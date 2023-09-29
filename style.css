@@ -23,6 +23,7 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
+  width: 1550px;
   position: relative;
   overflow: hidden;
 }
@@ -104,8 +105,27 @@
   flex-shrink: 0;
   position: relative;
 }
+.navbar-link2:hover {
+  border-style: solid;
+  border-color: var(--primarycolor-primary-500, #6bd256);
+  border-width: 0px 0px 2px 0px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
 .utama2 {
   color: var(--greyscale-gray-400, #464646);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.utama2:hover {
+  color: var(--primarycolor-primary-900, #174a0c);
   text-align: left;
   font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;

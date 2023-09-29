@@ -1,0 +1,534 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: var(--greyscale-white, #ffffff);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.navigationbar-desktop {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1550px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3 {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.a {
+  flex-shrink: 0;
+  width: 171.62px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group2 {
+  position: absolute;
+  left: 28.94px;
+  top: 3.49px;
+  overflow: visible;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.navbar-link {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.navbar-link:hover {
+  border-style: solid;
+  border-color: var(--primarycolor-primary-500, #6bd256);
+  border-width: 0px 0px 2px 0px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.utama {
+  color: var(--primarycolor-primary-900, #174a0c);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.utama:hover {
+  color: var(--greyscale-gray-400, #464646);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.navbar-link2 {
+  border-style: solid;
+  border-color: var(--primarycolor-primary-500, #6bd256);
+  border-width: 0px 0px 2px 0px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.utama2 {
+  color: var(--primarycolor-primary-900, #174a0c);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--greyscale-gray-50, #f6f6f6);
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 24px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: var(--secondary-secondary-500, #e18e29);
+  border-radius: 7px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.button2 {
+  color: var(--greyscale-white, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.button3 {
+  border-radius: 7px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-width: 1.5px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.button4 {
+  color: var(--secondary-secondary-500, #e18e29);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.contact2 {
+  background: #ffffff;
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1550px;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.wrapper-div-guideline {
+  padding: 84px 0px 84px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-15 {
+  padding: 0px 149px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-21 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.kontak-kami-sekarang {
+  color: #000000;
+  text-align: left;
+  font: var(--heading-02, 600 48px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.anda-memiliki-pertanyaan-saran-atau-keluhan-tentang-layanan-kami-kontak-kami-sekarang-dan-kami-akan-segera-merespon-anda-kami-siap-membantu-anda-dengan-sepenuh-hati {
+  color: #000000;
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.wrapper-div-guideline2 {
+  padding: 84px 0px 84px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex: 12;
+  position: relative;
+}
+.card-contact {
+  background: var(--greyscale-gray-50, #f6f6f6);
+  border-radius: 24px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  min-width: 419px;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-40 {
+  background: var(--primarycolor-primary-500, #6bd256);
+  border-radius: 50px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.instagram-logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-88 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-39 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.instagram {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--heading-05, 600 32px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.kawanpandai-id {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.button5 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-width: 1.5px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.icons2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.arrow-right {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.envelope {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.arrow-right2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.linkedin-logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.arrow-right3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.whatsapp-logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.arrow-right4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.footer {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container2 {
+  padding: 40px 32px 40px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.frame-43 {
+  background: var(--greyscale-gray-500, #282828);
+  border-radius: 24px;
+  padding: 64px 32px 64px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.a2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.kawan-pandai-copyright-2023 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-06, 600 24px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.footer-text-link {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 19px;
+  position: relative;
+}
+.utama3 {
+  color: var(--greyscale-white, #ffffff);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.footer-text-link2 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 19px;
+  position: relative;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.kantor-utama {
+  color: #ffffff;
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.jl-r-mangun-muka-raya-no-11-rt-11-rw-14-rawamangun-kec-pulo-gadung-kota-jakarta-timur-daerah-khusus-ibukota-jakarta-13220-indonesia {
+  color: #ffffff;
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}

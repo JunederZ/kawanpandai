@@ -1,0 +1,744 @@
+.jasa,
+.jasa * {
+  box-sizing: border-box;
+}
+.jasa {
+  background: var(--greyscale-white, #ffffff);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.navigationbar-desktop {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1550px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-3 {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.a {
+  flex-shrink: 0;
+  width: 171.62px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group2 {
+  position: absolute;
+  left: 28.94px;
+  top: 3.49px;
+  overflow: visible;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.navbar-link {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.navbar-link:hover {
+  border-style: solid;
+  border-color: var(--primarycolor-primary-500, #6bd256);
+  border-width: 0px 0px 2px 0px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.utama {
+  color: var(--greyscale-gray-400, #464646);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.utama2:hover {
+  color: var(--primarycolor-primary-900, #174a0c);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.navbar-link2 {
+  border-style: solid;
+  border-color: var(--primarycolor-primary-500, #6bd256);
+  border-width: 0px 0px 2px 0px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.utama2 {
+  color: var(--primarycolor-primary-900, #174a0c);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--greyscale-gray-50, #f6f6f6);
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 24px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: var(--secondary-secondary-500, #e18e29);
+  border-radius: 7px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.button2 {
+  color: var(--greyscale-white, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.button3 {
+  border-radius: 7px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-width: 1.5px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.button4 {
+  color: var(--secondary-secondary-500, #e18e29);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.job-vacancies {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  padding: 84px 0px 84px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.wrapper-illustration-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  block-size: auto;
+  height: 461px;
+  position: relative;
+  overflow: hidden;
+}
+.image-1 {
+  align-self: center;
+  flex-shrink: 0;
+  height: 461px;
+  position: relative;
+}
+.wrapper-text-hero {
+  padding: 0px 16px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-53 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-52 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lowongan-pekerjaan-guru {
+  color: #000000;
+  text-align: left;
+  font: var(--subheading-01, 500 24px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.buka-lowongan-pekerjaan-dan-dapatkan-guru-favorit-dengan-mudah {
+  color: #000000;
+  text-align: left;
+  font: var(--heading-01, 600 56px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.tidak-memiliki-banyak-waktu-dan-pengetahuan-untuk-memilih-guru-yang-paling-cocok-dengan-kebutuhan-belajar-anakmu-buka-lowongan-pekerjaan-diplatform-kawan-pandai-dan-temukan-guru-tercocok-dengan-kebutuhanmu {
+  color: #000000;
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.button5 {
+  background: var(--secondary-secondary-500, #e18e29);
+  border-radius: 12px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+}
+.button6 {
+  color: var(--gray-00, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.choose-teacher {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.pilih-guru {
+  color: #000000;
+  text-align: left;
+  font: var(--subheading-01, 500 24px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.temukan-guru-terbaik-dari-kampus-ternama-bagi-sibuah-hati {
+  color: #000000;
+  text-align: left;
+  font: var(--heading-01, 600 56px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.kawan-pandai-telah-bekerjasama-dengan-beragam-mahasiswa-mahasiswi-dari-universitas-negeri-jakarta-untuk-memberikan-pelayanan-jasa-tutor-les-dengan-beragam-karakteristik-sehingga-menjamin-kualitas-prima-dan-harga-yang-bersahabat {
+  color: #000000;
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.wrapper-illustration-hero2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.image-12 {
+  align-self: center;
+  flex: 1;
+  position: relative;
+}
+.frame-720 {
+  background: #ffffff;
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container2 {
+  padding: 84px 32px 84px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.frame-721 {
+  background: var(--primarycolor-primary-50, #f4fff1);
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.frame-754 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper-illustration-hero3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.money-1 {
+  flex-shrink: 0;
+  width: 400px;
+  /* margin-lef: 40px; */
+  height: 400px;
+  position: relative;
+}
+.jadi-tutor-kami {
+  color: #000000;
+  text-align: left;
+  font: var(--subheading-01, 500 24px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.mulai-hasilkan-pundi-rupiah-sejak-kuliah {
+  color: #000000;
+  text-align: left;
+  font: var(--heading-01, 600 56px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.kamu-seorang-mahasiswa-dan-bingung-bagaimana-untuk-mendapatkan-uang-jajan-lebih-sekaligus-meningkatkan-keterampilan-dan-pengalaman-dalam-mengajar-ayo-menjadi-bagian-dari-kawan-pandai-sekarang-dan-mulai-temukan-client-mu-sekarang {
+  color: #000000;
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.frame-755 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.headline-feature-home {
+  padding: 84px 445px 40px 445px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.kenapa-bergabung-dengan-kami {
+  color: #000000;
+  text-align: center;
+  font: var(--heading-03, 600 40px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.frame-756 {
+  padding: 0px 124px 0px 124px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-757 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-760 {
+  background: var(--primarycolor-primary-200, #c1ffb5);
+  border-radius: 92px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 64px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.currency-circle-dollar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-761 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.harga-jasa-sesuai-dengan-standart-pasaran {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--heading-05, 600 32px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.temukan-beragam-proyek-mengajar-paruh-waktu-yang-mampu-memberikan-harga-kompetitif {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.frame-7602 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-762 {
+  background: var(--primarycolor-primary-200, #c1ffb5);
+  border-radius: 200px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 64px;
+  position: relative;
+  overflow: hidden;
+}
+.smiley-wink {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.cocok-sebagai-kerjaan-sampingan-untuk-mahasiswa {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--heading-05, 600 32px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.cara-termudah-untuk-kamu-mulai-menghasilkan-uang-sejak-masa-kuliah-dengan-mudah-dan-nyaman {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.frame-7612 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.check-circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.platform-pekerjaan-yang-mudah-aman-terpercaya {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--heading-05, 600 32px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.hanya-cukup-register-dan-login-secara-gratis-temukan-beragam-proyek-mengajar-yang-aman-dan-terpercaya {
+  color: var(--greyscale-gray-900, #080808);
+  text-align: left;
+  font: var(--body-regular-300, 300 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.footer {
+  padding: 0px 84px 0px 84px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.container3 {
+  padding: 40px 32px 40px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.frame-43 {
+  background: var(--greyscale-gray-500, #282828);
+  border-radius: 24px;
+  padding: 64px 32px 64px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.a2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.kawan-pandai-copyright-2023 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-06, 600 24px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.frame-47 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.footer-text-link {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 19px;
+  position: relative;
+}
+.utama3 {
+  color: var(--greyscale-white, #ffffff);
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.footer-text-link2 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 19px;
+  position: relative;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 264px;
+  position: relative;
+}
+.kantor-utama {
+  color: #ffffff;
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.jl-r-mangun-muka-raya-no-11-rt-11-rw-14-rawamangun-kec-pulo-gadung-kota-jakarta-timur-daerah-khusus-ibukota-jakarta-13220-indonesia {
+  color: #ffffff;
+  text-align: left;
+  font: var(--subheading-03, 500 16px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
