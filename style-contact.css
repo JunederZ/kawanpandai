@@ -22,6 +22,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   /* width: 1550px; */
+  align-self: stretch;
   position: relative;
   overflow: hidden;
 }
@@ -211,7 +212,7 @@
   position: relative;
 }
 .wrapper-div-guideline {
-  padding: 84px 0px 84px 0px;
+  padding: 84px 0px 84px 124px;
   display: flex;
   flex-direction: row;
   gap: 0px;
@@ -225,10 +226,11 @@
   padding: 0px 149px 0px 0px;
   display: flex;
   flex-direction: column;
+  width: 500px;
   gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
   flex: 1;
   position: relative;
   overflow: hidden;
