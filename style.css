@@ -155,6 +155,9 @@
   border-radius: 7px;
   padding: 12px 32px 12px 32px;
   display: flex;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
   flex-direction: row;
   gap: 12px;
   align-items: center;
@@ -162,12 +165,31 @@
   flex-shrink: 0;
   height: 54px;
   position: relative;
-}
-.button2 {
   color: var(--greyscale-white, #ffffff);
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+}
+.button:hover {
+  background: transparent;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-radius: 7px;
+  padding: 12px 32px 12px 32px;
+  border-width: 1.5px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+  color: var(--greyscale-white, #e18e29);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+  
 }
 .button3 {
   border-radius: 7px;
@@ -183,12 +205,31 @@
   flex-shrink: 0;
   height: 54px;
   position: relative;
-}
-.button4 {
   color: var(--secondary-secondary-500, #e18e29);
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+}
+.button3:hover {
+  background: var(--secondary-secondary-500, #e18e29);
+  border-radius: 7px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+  color: var(--greyscale-white, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+
 }
 .hero {
   background: var(--greyscale-gray-50, #f6f6f6);
@@ -271,6 +312,9 @@
 .button5 {
   background: var(--secondary-secondary-500, #e18e29);
   border-radius: 12px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-width: 1.5px;
   padding: 12px 32px 12px 32px;
   display: flex;
   flex-direction: row;
@@ -280,9 +324,27 @@
   flex-shrink: 0;
   height: 54px;
   position: relative;
-}
-.button6 {
   color: var(--gray-00, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.button5:hover {
+  background: transparent;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--secondary-secondary-500, #e18e29);
+  border-width: 1.5px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+  color: var(--gray-00, #e18e29);
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
@@ -301,6 +363,27 @@
   flex-shrink: 0;
   height: 54px;
   position: relative;
+  color: var(--gray-00, #e18e29);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative;
+}
+.button7:hover {
+  background: var(--secondary-secondary-500, #e18e29);
+  border-radius: 12px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 54px;
+  position: relative;
+  color: var(--gray-00, #ffffff);
+  text-align: left;
+  font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
+  position: relative; 
 }
 .frame-7 {
   display: flex;
