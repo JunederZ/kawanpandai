@@ -451,7 +451,7 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 .frame-9 {
   background: var(--greyscale-gray-50, #f6f6f6);
@@ -465,7 +465,11 @@
   align-self: stretch;
   flex: 1;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  transition: transform .2s;
+}
+.frame-9:hover {
+  transform: scale(1.05);
 }
 .frame-14 {
   display: flex;
@@ -516,6 +520,10 @@
   flex: 1;
   position: relative;
   overflow: hidden;
+  transition: transform .2s;
+}
+.frame-10:hover {
+  transform: scale(1.05);
 }
 .frame-142 {
   border-radius: 16px;
@@ -573,6 +581,10 @@
   flex: 1;
   position: relative;
   overflow: hidden;
+  transition: transform .2s;
+}
+.frame-11:hover {
+  transform: scale(1.05);
 }
 .frame-12 {
   border-radius: 16px;
