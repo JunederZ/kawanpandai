@@ -23,8 +23,7 @@
   justify-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;
-  /* width: 1550px; */
-  position: relative;
+  position: sticky;
   overflow: hidden;
 }
 .frame-3 {
@@ -668,7 +667,7 @@
   justify-content: center;
   flex-shrink: 0;
   width: 1752px;
-  height: 648px;
+  height: 692px;
   position: relative;
 }
 .frame-89 {
@@ -779,8 +778,70 @@
   height: 56px;
   position: relative;
 }
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 40
+}
+.arrow-left-how {
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  font-size: 60px !important;
+  position: relative;
+}
+.arrow-right-how {
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  font-size: 60px !important;
+  position: relative;
+}
+.step-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  position: relative;
+  align-self: center;
+  width: 70%;
+}
+
+.frame-15-wrapper {
+  display: flex;
+  /* margin-left: 30%; */
+  position: relative;
+  overflow: hidden;
+  gap: 150px;
+}
 .frame-15 {
-  padding: 0px 296px 0px 296px;
+  z-index: 9;
+  width: max-content;
+  padding: 0px 0px 0px 60px;
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -789,7 +850,22 @@
   align-self: stretch;
   flex: 1;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+  transition: transform 0.8s;
+}
+.frame-15-1 {
+  z-index: 10;
+  /* padding: 0px 296px 0px 296px; */
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  /* overflow: hidden; */
+  transition: transform 0.8s;
 }
 .image-14 {
   border-radius: 24px;
