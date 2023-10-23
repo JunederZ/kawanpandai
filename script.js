@@ -7,24 +7,18 @@ let nowPage = 1
 function faqChangeState(faqNum){
 
     let element = document.getElementById(`faq-${faqNum}`);
-
-    // console.log(`h : ${sad}`);
-
     var computedHeight = window.getComputedStyle(element).height;
-    var currentHeight = parseFloat(computedHeight); // Convert height to a numeric value
+    var currentHeight = parseFloat(computedHeight);
+
+    let sizeHeight = document.getElementById(`insideFaq-${faqNum}`);
+    var sizeComputedHeight = window.getComputedStyle(sizeHeight).height;
+    var sizeCurrentHeight = 100 + parseInt(sizeComputedHeight);
     
     if (currentHeight > 80) {
         element.style.height = '80px';
     } else {
-        element.style.height = '140px';
+        element.style.height = `${sizeCurrentHeight}px`;
     }
-
-    // if (document.getElementById(`faq-${faqNum}`).style.height > 80) {
-    //     document.getElementById(`faq-${faqNum}`).style.height = `80px`;
-    // }
-    // else {
-    //     document.getElementById(`faq-${faqNum}`).style.height = `140px`;
-    // }
 }
 
 function changeStep(step){
@@ -60,7 +54,7 @@ document.fonts.load('10pt "Material Icons"').then(function () {
     console.log('Material Icons font has been preloaded.');
   });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', event => {
 
     const faq1 = document.getElementById('faq-1');
     const faq2 = document.getElementById('faq-2');
@@ -76,44 +70,55 @@ document.addEventListener('DOMContentLoaded', function() {
     const rightArrow = document.getElementById('arrow-right');
     const leftArrow = document.getElementById('arrow-left');
 
-    rightArrow.addEventListener('click', function() {
-        changeStep(nowPage+1)
+    rightArrow.addEventListener('click', event => {
+        changeStep(nowPage+1);
+        event.preventDefault();
     });
-    leftArrow.addEventListener('click', function() {
-        changeStep(nowPage-1)
+    leftArrow.addEventListener('click', event => {
+        changeStep(nowPage-1);
+        event.preventDefault();
     });
 
-    content1.addEventListener('click', function() {
+    content1.addEventListener('click', event => {
         changeStep(1);
+        event.preventDefault();
     });
 
-    content2.addEventListener('click', function() {
+    content2.addEventListener('click', event => {
         changeStep(2);
+        event.preventDefault();
     });
 
-    content3.addEventListener('click', function() {
+    content3.addEventListener('click', event => {
         changeStep(3);
+        event.preventDefault();
     });
 
-    content4.addEventListener('click', function() {
+    content4.addEventListener('click', event => {
         changeStep(4);
+        event.preventDefault()
     });
 
-    content5.addEventListener('click', function() {
+    content5.addEventListener('click', event => {
         changeStep(5);
+        event.preventDefault();
     });
 
-    faq1.addEventListener('click', function() {
+    faq1.addEventListener('click', event => {
         faqChangeState(1);
+        event.preventDefault();
     });
-    faq2.addEventListener('click', function() {
+    faq2.addEventListener('click', event => {
         faqChangeState(2);
+        event.preventDefault();
     });
-    faq3.addEventListener('click', function() {
+    faq3.addEventListener('click', event => {
         faqChangeState(3);
+        event.preventDefault();
     });
-    faq4.addEventListener('click', function() {
+    faq4.addEventListener('click', event => {
         faqChangeState(4);
+        event.preventDefault();
     });
 
     }
