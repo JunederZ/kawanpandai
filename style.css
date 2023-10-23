@@ -168,6 +168,7 @@
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+  transition: background 0.4s;
 }
 .button:hover {
   background: transparent;
@@ -208,6 +209,7 @@
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+  transition: background 0.4s;
 }
 .button3:hover {
   background: var(--secondary-secondary-500, #e18e29);
@@ -327,6 +329,7 @@
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+  transition: background 0.4s;
 }
 .button5:hover {
   background: transparent;
@@ -366,6 +369,7 @@
   text-align: left;
   font: var(--button-regular, 500 17px/120% "Plus Jakarta Sans", sans-serif);
   position: relative;
+  transition: background 0.4s;
 }
 .button7:hover {
   background: var(--secondary-secondary-500, #e18e29);
@@ -689,10 +693,11 @@
   border-color: var(--primarycolor-primary-500, #6bd256);
   border-width: 5px 0 0 0;
   flex-shrink: 0;
-  width: 1350px;
+  width: 10px;
   height: 0px;
   position: absolute;
   left: 112px;
+  transition: width 1s;
 }
 .line-3 {
   border-style: solid;
@@ -741,6 +746,7 @@
   align-self: stretch;
   flex: 1;
   position: relative;
+  transition: background 1s;
 }
 .frame-92 {
   padding: 10px;
@@ -1106,7 +1112,8 @@
   position: relative;
 }
 .faq2 {
-  padding: 16px 0px 16px 0px;
+  border-radius: 20px;
+  padding: 16px 10px 16px 10px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -1117,6 +1124,10 @@
   height: 80px;
   position: relative;
   overflow: hidden;
+  transition: height 0.6s;
+}
+.faq2:hover {
+  background-color: #cecece;
 }
 .frame-728 {
   display: flex;
